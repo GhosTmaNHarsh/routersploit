@@ -15,9 +15,11 @@ echo "   |_____________________________________|"
 
 pkg install python2 -y
 git clone https://github.com/reverse-shell/routersploit
+cd routersploit
 pip2 install -r requirements 
 pip2 install -r requirements-dev.txt
 pip2 install requests 
+figlet GhosTmaN
 echo "_____________________________________________"
 echo ".  |-------------------------------------|"
 echo ".  |   INSTALLATION PROCESS COMPLETED    |"
